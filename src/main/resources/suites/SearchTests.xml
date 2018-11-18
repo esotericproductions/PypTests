@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="P1Tests"       parallel="tests">
+
+    <parameter name="suiteName"   value="p1Tests"/>
+    <parameter name="genericBool" value="false"/>
+    <parameter name="env"         value="qa"/>
+
+    <listeners>
+        <listener class-name="back.controllers.driver.Listener"/>
+        <!--<listener class-name="org.uncommons.reportng.HTMLReporter"/>-->
+        <!--<listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>-->
+    </listeners>
+
+    <test name="Pyp_1">
+        <parameter name="testId"       value="pyp1" />
+
+        <classes>
+            <class name="front.tests.SimpleQueryTests"/>
+        </classes>
+    </test>
+
+</suite>

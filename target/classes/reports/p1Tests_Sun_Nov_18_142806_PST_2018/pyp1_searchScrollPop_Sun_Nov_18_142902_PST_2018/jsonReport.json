@@ -1,0 +1,87 @@
+{
+  "failures": [
+    {
+      "pyp1": [
+        "tests: pyp1",
+        "method: pyp1_searchScrollPop",
+        {
+          "message: ": [
+            "Can\u0027t locate an element by this strategy: Locator map: "
+          ]
+        },
+        {
+          "stackTrace: ": [
+            "[io.appium.java_client.pagefactory.AppiumElementLocator.findElement((AppiumElementLocator.java:110)",
+            "io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept((InterceptorOfASingleElement.java:57)",
+            "back.controllers.waits.Wait.waitVisible((Wait.java:17)",
+            "front.logic.behaviors.SearchBehaviors.tapOpenPopup((SearchBehaviors.java:47)",
+            "front.logic.launchers.Launcher_SearchTests.openPopup((Launcher_SearchTests.java:50)",
+            "front.tests.SimpleQueryTests.searchScrollPop((SimpleQueryTests.java:25)",
+            "sun.reflect.NativeMethodAccessorImpl.invoke((NativeMethodAccessorImpl.java:62)",
+            "sun.reflect.DelegatingMethodAccessorImpl.invoke((DelegatingMethodAccessorImpl.java:43)",
+            "java.lang.reflect.Method.invoke((Method.java:498)",
+            "org.testng.internal.MethodInvocationHelper.invokeMethod((MethodInvocationHelper.java:124)",
+            "org.testng.internal.Invoker.invokeMethod((Invoker.java:583)",
+            "org.testng.internal.Invoker.invokeTestMethod((Invoker.java:719)",
+            "org.testng.internal.Invoker.invokeTestMethods((Invoker.java:989)",
+            "org.testng.internal.TestMethodWorker.invokeTestMethods((TestMethodWorker.java:125)",
+            "org.testng.internal.TestMethodWorker.run((TestMethodWorker.java:109)",
+            "org.testng.TestRunner.privateRun((TestRunner.java:648)",
+            "org.testng.TestRunner.run((TestRunner.java:505)",
+            "org.testng.SuiteRunner.runTest((SuiteRunner.java:455)",
+            "org.testng.SuiteRunner.access$000((SuiteRunner.java:40)",
+            "org.testng.SuiteRunner$SuiteWorker.run((SuiteRunner.java:489)",
+            "org.testng.internal.thread.ThreadUtil$1.call((ThreadUtil.java:52)",
+            "java.util.concurrent.FutureTask.run((FutureTask.java:266)",
+            "java.util.concurrent.ThreadPoolExecutor.runWorker((ThreadPoolExecutor.java:1149)",
+            "java.util.concurrent.ThreadPoolExecutor$Worker.run((ThreadPoolExecutor.java:624)",
+            "java.lang.Thread.run((Thread.java:748)]"
+          ]
+        }
+      ]
+    },
+    {
+      "pyp1": [
+        "tests: pyp1",
+        "method: pyp1_searchScrollPop",
+        {
+          "message: ": [
+            "Can\u0027t locate an element by this strategy: Locator map: "
+          ]
+        },
+        {
+          "stackTrace: ": [
+            "[io.appium.java_client.pagefactory.AppiumElementLocator.findElement((AppiumElementLocator.java:110)",
+            "io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept((InterceptorOfASingleElement.java:57)",
+            "front.pages.PypCulturePage.tapBranding((PypCulturePage.java:58)",
+            "front.logic.behaviors.SearchBehaviors.tapBrandingToShareMenu((SearchBehaviors.java:52)",
+            "front.logic.launchers.Launcher_SearchTests.openShareMenu((Launcher_SearchTests.java:69)",
+            "front.tests.SimpleQueryTests.searchScrollPop((SimpleQueryTests.java:26)",
+            "sun.reflect.NativeMethodAccessorImpl.invoke((NativeMethodAccessorImpl.java:62)",
+            "sun.reflect.DelegatingMethodAccessorImpl.invoke((DelegatingMethodAccessorImpl.java:43)",
+            "java.lang.reflect.Method.invoke((Method.java:498)",
+            "org.testng.internal.MethodInvocationHelper.invokeMethod((MethodInvocationHelper.java:124)",
+            "org.testng.internal.Invoker.invokeMethod((Invoker.java:583)",
+            "org.testng.internal.Invoker.invokeTestMethod((Invoker.java:719)",
+            "org.testng.internal.Invoker.invokeTestMethods((Invoker.java:989)",
+            "org.testng.internal.TestMethodWorker.invokeTestMethods((TestMethodWorker.java:125)",
+            "org.testng.internal.TestMethodWorker.run((TestMethodWorker.java:109)",
+            "org.testng.TestRunner.privateRun((TestRunner.java:648)",
+            "org.testng.TestRunner.run((TestRunner.java:505)",
+            "org.testng.SuiteRunner.runTest((SuiteRunner.java:455)",
+            "org.testng.SuiteRunner.access$000((SuiteRunner.java:40)",
+            "org.testng.SuiteRunner$SuiteWorker.run((SuiteRunner.java:489)",
+            "org.testng.internal.thread.ThreadUtil$1.call((ThreadUtil.java:52)",
+            "java.util.concurrent.FutureTask.run((FutureTask.java:266)",
+            "java.util.concurrent.ThreadPoolExecutor.runWorker((ThreadPoolExecutor.java:1149)",
+            "java.util.concurrent.ThreadPoolExecutor$Worker.run((ThreadPoolExecutor.java:624)",
+            "java.lang.Thread.run((Thread.java:748)]"
+          ]
+        }
+      ]
+    }
+  ],
+  "testSuite": "p1Tests",
+  "testId": "pyp1",
+  "issues_total": 3
+}
